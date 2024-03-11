@@ -1,0 +1,136 @@
+body{
+    background-color: 	#727171;
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pe{
+    background-color:rgb(122, 165, 42);
+}
+.lara{
+    background-color: rgb(15, 228, 72);
+}
+.dungo{
+    background-color: rgb(57, 204, 155);
+}
+.macky{
+    background-color: rgb(193, 109, 45);
+}
+.maria{
+    background-color: rgb(237, 133, 154);
+}
+.sara{
+    background-color:rgb(184, 146, 222);
+}
+.al{
+    background-color:rgb(158, 115, 115);
+}
+.day{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ddd;
+
+}
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 20%;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    color: blue;
+    text-align: center;
+}
+a:hover{
+    color: red;
+}
+text{
+    text-align: center
+    
+}
+a.centered-link{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+p.text{
+    text-align: center;
+}
+body{
+    background-color: 	#A9A9A9;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: black;
+}
+.day{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ddd;
+
+}
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 20%;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    color: blue;
+    text-align: center;
+}
+a:hover{
+    color: red;
+}
+text{
+    text-align: center
+    
+}
+a.centered-link{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+p.text{
+    text-align: center;
+}
+@media print{
+    .img{
+        filter: grayscale(100%);
+    }
+    a{
+        color: black;
+
+    }
+}
+
